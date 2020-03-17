@@ -22,7 +22,7 @@ In "*Few-Shot_ED.json.zip*"，the key is "*event type label*", the value is the 
 
 * "In trucks and on foot they came to the town of Safwan" is an event mention
 * "came" is trigger
-* 7 means the distance from trigger "came" to the beginning of the sentence, 
-* 6 means the distance from trigger "came" to the ending of the sentence, 
-* 12 means the sentence length.
+* 7 means the distance from trigger "came" to the beginning of the sentence
+* 6 means the distance from trigger "came" to the ending of the sentence
+* 12 means the sentence length
 

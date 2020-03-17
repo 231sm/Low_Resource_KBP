@@ -13,11 +13,14 @@ The file "*Few-Shot_ED.json.zip*" is the ***FewEvent*** dataset for the paper ac
 ## Data Structure
 In "*Few-Shot_ED.json.zip*"，the key is "*event type label*", the value is the event instances.
 
-data structure: {event_type_label1: \[instance1, instance2, ...\], event_type_label2: ...}
+{event_type_label1: \[instance1, instance2, ...\], event_type_label2: ...}
 
-example of an event instance:
+example of an event instance: (Note that the sentence should be cleaned, e.g., To expand abbreviations)
 \["In trucks and on foot they came to the town of Safwan", "came", \[7, 6, 12\]\] 
+
 7 means the distance from trigger "came" to the beginning of the sentence, 
+
 6 means the distance from trigger "came" to the ending of the sentence, 
+
 12 means the sentence length.
-(Note that the sentence should be cleaned, e.g., To expand abbreviations)
+
